@@ -66,6 +66,7 @@ h1
     width:70%;
     max-width: 100%;
     text-align: center;
+    border: 1px solid red;
 }
 
 div.card-album > img
@@ -78,12 +79,10 @@ div.card-album > p
     margin-top:23px;
     font-size: 19px;
 }
-
 .card-album
 {
     width: 300px;
     display: inline-block;
-    text-align: center;
     margin:25px;
-
+    border: 1px solid red;
 }
