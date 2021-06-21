@@ -150,7 +150,7 @@ li
     margin:25px;
 }
 /* DIMENSIONANDO ESPECIFICAMENTE O ICONE DO YOUTUBE*/
-#yt-icon
+.yt-icon
 {
     width: 75px;
     height: 50px;
