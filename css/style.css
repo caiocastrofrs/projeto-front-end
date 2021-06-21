@@ -28,6 +28,8 @@ body
     box-shadow: 1px 5px 5px #292929;
     position: fixed;
     width: 100%;
+    top:0;
+   /*  margin-top: 100px; */
 }
 
 /* ESTILIZANDO DIRETAMENTE TODOS OS LINKS DENTRO DO HEADER*/
@@ -39,7 +41,6 @@ header > a
     border: 1px solid #292929;
     background-color: #292929;
     color: white;
-
 }
 
 /* ESTILIZANDO DIRETAMENTE TODOS OS LINKS DENTRO DO HEADER PARA QUE TENHA UM BACKGROUND NA AÇÃO HOVER*/
@@ -54,11 +55,10 @@ header > a:visited
 {
     color: white;
 }
-
 /* DIV PARA ESTILIZAR A FOTO BANNER*/
 #foto-banda 
 {
-    margin-top: 100px;
+    margin-top: 150px; 
     margin-bottom: 123px;
     text-align: center;
     max-width: 100%;
@@ -76,10 +76,12 @@ header > span
     top:5px;
     max-width: 100%;
 } 
-
-
+/* h1 
+{
+    display: inline-block;
+} */
 /* ESTILIZANDO O ÚNICO H1 QUE FICA DEPENDENTE DO BODY*/
-h1 
+h2
 {
     text-align: center;
 }
@@ -98,7 +100,7 @@ footer > h1
     margin-left:auto;
     margin-right: auto;
     width:70%;
-    max-width: 100%;
+    max-width: 100%; 
     text-align: center;
 }
 
