@@ -124,7 +124,7 @@ div.card-album > p
     width: 300px;
     display: inline-block;
     margin:25px;
-    min-height: 200px;
+    vertical-align: top;
 }
 
 /* ESTILIZANDO O ICONE DO ZAP FIXO*/
